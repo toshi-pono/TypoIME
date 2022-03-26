@@ -35,6 +35,7 @@ extern "C" fn input_text(_this: &Object, _cmd: Sel, text: id, sender: id) -> BOO
   if let Some(desc_str) = to_s(text) {
     if let Some(insert_text) = convert(desc_str) {
       // TODO: 英数キーを押すとなぜか半角スペースが入力されるバグがある
+      // to_s(text) == " " になってる
       unsafe {
         let _: () = msg_send![sender, insertText: NSString::alloc(nil).init_str(&insert_text)];
       }
