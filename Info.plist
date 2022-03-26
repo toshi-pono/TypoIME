@@ -2,5 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>CFBundleExecutable</key>
+    <string>typo_ime</string>
+    <key>CFBundleDisplayName</key>
+    <string>typoIME</string>
+    <key>CFBundleName</key>
+    <string>typoIME</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>CFBundleIdentifier</key>
+    <string>dev.toshi00.inputmethod.English.Typo</string>
+    <key>CFBundleIconFile</key>
+    <string>product_icon.icns</string>
+
+    <key>LSBackgroundOnly</key>
+    <string>1</string>
+    <key>InputMethodConnectionName</key>
+    <string>toshi00TypoIME_1_Connection</string>
+    <key>InputMethodServerControllerClass</key>
+    <string>MyInputController</string>
+    <key>tsInputMethodIconFileKey</key>
+    <string>typo.tiff</string>
+    <key>tsInputMethodCharacterRepertoireKey</key>
+    <array>
+      <string>Latn</string>
+    </array>
+
   </dict>
 </plist>
