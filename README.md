@@ -7,9 +7,23 @@ typoIME は、英数字入力を支援する macOS 向け IME です。
 
 ※ 注意：ネタIMEです
 
+## 動作例
+
+original
+```
+hello world!
+HELLO WORLD!
+```
+
+output
+```
+heI1o　worId!
+HELLO W0RLD! 
+```
+
 ## 動作環境
 
-以下の環境で動作を確認しています
+以下の環境で動作を確認しています  
 macOS (Intel) 11.5 Big Sur  
 
 ## 使い方
