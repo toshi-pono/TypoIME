@@ -22,7 +22,7 @@
     <key>InputMethodConnectionName</key>
     <string>toshi00TypoIME_1_Connection</string>
     <key>InputMethodServerControllerClass</key>
-    <string>MyInputController</string>
+    <string>TypoInputController</string>
     <key>tsInputMethodIconFileKey</key>
     <string>typo.tiff</string>
     <key>tsInputMethodCharacterRepertoireKey</key>
