@@ -1,5 +1,5 @@
 [package]
-name = "typoIme"
+name = "typo_ime"
 version = "0.1.0"
 edition = "2021"
 
