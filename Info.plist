@@ -5,9 +5,9 @@
     <key>CFBundleExecutable</key>
     <string>typo_ime</string>
     <key>CFBundleDisplayName</key>
-    <string>typoIME</string>
+    <string>TypoIME</string>
     <key>CFBundleName</key>
-    <string>typoIME</string>
+    <string>TypoIME</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>NSPrincipalClass</key>

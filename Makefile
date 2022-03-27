@@ -1,5 +1,5 @@
 output_dir = output
-app_name = typoIME
+app_name = TypoIME
 bin_name = typo_ime
 
 .PHONY: app
