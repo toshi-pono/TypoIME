@@ -48,9 +48,9 @@ extern "C" fn input_text(_this: &Object, _cmd: Sel, text: id, sender: id) -> BOO
 fn convert(text: &str) -> Option<String> {
   let mut rng = rand::thread_rng();
   let mut outs = HashMap::new();
-  outs.insert("l", vec!["l", "I"]);
+  outs.insert("l", vec!["l", "I", "|"]);
   outs.insert("1", vec!["l", "1", "I"]);
-  outs.insert("I", vec!["l", "I"]);
+  outs.insert("I", vec!["l", "I", "|"]);
   outs.insert("O", vec!["O", "0"]);
   outs.insert("0", vec!["O", "0"]);
   outs.insert(" ", vec![" ", "　"]);
