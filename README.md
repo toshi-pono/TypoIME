@@ -9,6 +9,9 @@ typoIME は、英数字入力を支援する macOS 向け IME です。
 
 ## 動作例
 
+VSCode / スクリーンキャストモードを使用 
+![typoIME](https://user-images.githubusercontent.com/66683209/160365171-474a1c71-80eb-4f2e-9e32-24367583ab54.gif)
+
 original
 ```
 hello world!
